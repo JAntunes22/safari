@@ -1,3 +1,21 @@
+@import url('../css/fonts.css');
+
+:root{
+
+    /* Colors */
+    --text-gray: #3f4954;
+    --text-light: #f7f7f7;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --magenta: #962655;
+    --midnight: #104f55;
+    --orange: #d18623;
+
+
+    /* Gradients */
+    --gum: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +30,12 @@
 
 }
 
+.custom-toggler.navbar-toggler { 
+    background-color: rgb(199, 156, 77); 
+} 
+
 .navbar-brand img {
-    height: 40px;
+    height: 60px;
     padding-left: 30;
 }
 
@@ -27,11 +49,13 @@
 }
 
 #nav-bar ul li a:hover {
-    color: rgb(44, 44, 44) !important;
+    color: rgb(182, 182, 182) !important;
+    text-decoration: none;
+    transform: translateY(2px);
 }
 
 .navbar {
-    background: rgb(187, 4, 44);
+    background: rgb(0, 0, 0);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
@@ -41,9 +65,16 @@
 
 .nav-link {
     color: rgb(255, 255, 255) !important;
-    font-weight: 400;
     font-size: 18px;
+    font-family: Montserrat;
 }
+
+.navbar .social {
+    padding: 10px 10px;
+    font-family: Karla;
+    color:  white;
+}
+
 
 /*---Slider---*/
 
@@ -70,6 +101,11 @@
     color: rgb(0, 0, 0);
 }
 
+#about .container .row{
+    justify-content: space-between;
+    display: flex;
+}
+
 #about .btn {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -93,8 +129,8 @@
 
 /*---Services---*/
 
-#services {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/services.jpg);
+#menu {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../assets/menu.jpg);
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255) !important;
@@ -103,50 +139,17 @@
     padding-bottom: 50px;
 }
 
-#services h1 {
-    text-align: center;
-    color: rgb(216, 216, 216) !important;
-    padding-bottom : 10px;
+#menu .container {
+    justify-content: space-evenly;
+    display: flex;
 }
 
-#services p {
-    text-align: center;
-    color: rgb(216, 216, 216) !important;
-    padding-bottom : 10px;
+#menu .container .menu-img {
+    height: 300px;
 }
 
-#services h1::after {
-    content: '';
-    background: rgb(214, 214, 214);
-    display: block;
-    height: 3px;
-    width: 170px;
-    margin: 20px auto 5px;
-}
-
-.services {
-    margin-top: 40px;
-}
-
-.icon {
-    font-size: 40px;
-    margin: 20px auto;
-    padding: 20px;
-    width: 80px;
-    border: 1px solid rgb(255,255,255);
-    border-radius: 50%;
-}
-
-#services p {
-    font-size: 14px;
-    margin-top: 20px;
-    color: rgb(255, 255, 255);
-}
-
-#services .col:hover {
-     background: rgb(42, 92, 199);
-     cursor: pointer;
-     transition: 0.8s;
+#menu .container a {
+    margin-top: 150px;
 }
 
 /*---Contact---*/
@@ -158,7 +161,17 @@
 /*---Footer---*/
 
 #footer {
-    background: rgb(56, 84, 117);
+    background: rgb(199, 156, 77);
     color: rgb(255, 255, 255);
     padding: 12px;
+}
+
+/*---Menu page----*/
+.menu {
+    padding-top: 50px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+    
 }

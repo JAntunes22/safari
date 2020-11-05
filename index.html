@@ -1,38 +1,43 @@
 <html>
     <head>
-        <title>safari</title>
-        <link rel="stylesheet" href="css/style.css">
+        <title>Safari</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="./css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+        <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
         <body>
             <!---Navigation Bar-->
             <section id="nav-bar">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand" href="#"><img src="assets/logo.jpg"></a>
+                    <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#about">Quem Somos</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#services">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#contact">Contacto</a>
-                        </li>
-                      </ul>
+                      	<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">Quem Somos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contacto</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./menu.html">Menu</a>
+							</li>
+							<li class="nav-item">
+								<a class="social" target="_blank" href="https://www.instagram.com/safari.restaurante.bar/">@safari.restaurante.bar
+								<i class="fab fa-instagram"></i></a>
+							</li>
+                      	</ul>
                     </div>
-                  </nav>
+                </nav>
             </section>
             <!---Slider-->
             <div id="slider">
@@ -44,21 +49,19 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="img/banner1.jpg" class="d-block img-fluid ">
+                        <img src="assets/banner1.jpg" class="d-block img-fluid ">
                         <div class="carousel-caption">
-                            <h5>A Iberconta tem como missão fornecer a gestores e empresários as ferramentas
-                                necessárias para, cumprindo as suas obrigações legais, enfrentarem o seu
-                                mercado-alvo de forma competitiva e com sucesso.</h5>
+                            <h5>O Safari é</h5>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="img/banner2.jpg" class="d-block img-fluid ">
+                        <img src="assets/banner2.jpg" class="d-block img-fluid ">
                         <div class="carousel-caption">
                             <h5>Texto exemplo 2</h5>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="img/banner3.jpg" class="d-block img-fluid ">
+                        <img src="assets/banner3.jpg" class="d-block img-fluid ">
                         <div class="carousel-caption">
                             <h5>Texto exemplo 3</h5>
                         </div>
@@ -78,77 +81,44 @@
             <section id="about">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div>
                             <h2>Sobre nós</h2>
-                            <div class="about-content">Localizada no centro financeiro da cidade, a Iberconta foi fundada em 1976, com o objectivo de prestar serviços na área da contabilidade. A Iberconta continua a desenvolver a sua actividade na cidade de Portimão. Tem, no entanto, uma carteira de clientes que abrange todo o barlavento algarvio.</div>
-                            <a class="btn btn-outline-secondary" href="https://www.google.com/maps/place/R.+Direita+5,+8500-757+Portim%C3%A3o/@37.1378322,-8.5364627,20z/data=!4m5!3m4!1s0xd1b28f320583f69:0xac2005f5c6c98a7c!8m2!3d37.137976!4d-8.5362746" role="button" target="_blank">Onde estamos</a>
+                            <div class="about-content">O Safari é</div>
+                            <a class="btn btn-outline-secondary" href="https://www.google.com/maps/place/Safari+-+Restaurante+bar.+Since+1976.+Praia+Da+Rocha+(Portim%C3%A3o)/@37.1189237,-8.5390886,21z/data=!4m13!1m7!3m6!1s0xd1b28fd609164ab:0xdab65687724ada24!2sAv.+Tom%C3%A1s+Cabreira,+Portim%C3%A3o!3b1!8m2!3d37.1190392!4d-8.5374434!3m4!1s0xd1b28fd39b91391:0x3495313000f403ea!8m2!3d37.1190168!4d-8.5389787" role="button" target="_blank">Onde estamos</a>
                         </div>
-                        <div class="col-md-6">
+                        <div>
                             <img src="img/about.jpg" class="about-image">
                         </div>
                     </div>
                 </div>
             </section>
-            <!---Services-->
-            <section id="services">
+            <!---Menu-->
+            <section id="menu">
                 <div class="container">
-                    <h1>Serviços</h1>
-                    <p>Sabendo da importância que a contabilidade tem como      sistema de informação para a gestão, a Iberconta apresenta aos seus parceiros uma análise
-                        comparativa detalhada por meses e anos, para que a gestão usufrua das
-                        vantagens de ter uma imagem abrangente da situação económica da empresa. O
-                        processo de decisão ganha assim um inestimável apoio para que o decisor
-                        conduza a empresa em direcção às metas que tiverem sido concertadas. Os
-                        nossos serviços repartem-se pelas seguintes áreas:</p>
-                    <div class="row services">
-                        <div class="col text-center">
-                            <div class="icon">
-                                <i class="fa fa-desktop"></i>
-                            </div>
-                            <h3>Contabilidade</h3>
-                        </div>
-                        <div class="col text-center">
-                            <div class="icon">
-                                <i class="fa fa-tablet"></i>
-                            </div>
-                            <h3>Consultoria de Gestão</h3>
-                        </div>
-                        <div class="col text-center">
-                            <div class="icon">
-                                <i class="fa fa-line-chart"></i>
-                            </div>
-                            <h3>Projetos de investimento</h3>
-                        </div>
-                        <div class="col text-center">
-                            <div class="icon">
-                                <i class="fa fa-file-text-o"></i>
-                            </div>
-                            <h3>Consultoria Fiscal</h3>
-                        </div>
-                        <div class="col text-center">
-                            <div class="icon">
-                                <i class="fa fa-handshake-o"></i>
-                            </div>
-                            <h3>Gestão de pessoal (processamento salarial)</h3>
-                        </div>
-                    </div>
+					<div>
+						<img src="assets/menu_texto.png" class="menu-img">
+					</div>
+					<div>
+						<a class="btn btn-outline-light btn-lg" href="./menu.html" role="button">Veja o nosso menu</a>
+					</div>
                 </div>
             </section>
             <!---Contact--->
             <section id="contact">
                 <div class="container">
                     <h2>Contactos e Informações</h2>
-                    <p>Morada: Rua Direita nº 5, loja J, 8500-624 Portimão</p>
-                    <p>Telefone: +351 282 419 022</p>
-                    <p>Fax: +351 282 426 355</p>
-                    <p>e-mail: iberconta@gmail.com</p>
-                    <p>Horário de atendimento: Das 9:00 às 12:00 e das 14:00 às 16:00, de segunda a sexta.</p>
+                    <p>Morada: Portimão</p>
+                    <p>Telefone:</p>
+                    <p></p>
+                    <p>e-mail:</p>
+                    <p>Horário:</p>
 
                 </div>
             </section>
             <!---Footer--->
             <section id="footer">
                 <div class="container">
-                    <p>iberconta®</p>
+                    <p>safari restaurante</p>
                 </div>
             </section>
             <!---Footer End-->
